@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/@simplewebauthn/browser/dist/bundle/index.umd.min.js"></script>
+    <script src="/script.js"></script>
+    </head>
+    <body>
+      <main>
+        ユーザ名：<input type="text" id="userName" />
+        <button onClick="register()" className="button">
+          登録
+        </button>
+        <button onClick="verify()" className="button">
+          認証
+        </button><br/>
+        <a href="/restricted">要認証のコンテンツを表示</a>
+      </main>
+    </body>
+  </head>
+</html>
