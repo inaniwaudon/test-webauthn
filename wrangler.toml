@@ -4,8 +4,8 @@ compatibility_flags = [ "nodejs_compat" ]
 
 [[kv_namespaces]]
 binding = "KV"
-id = ""**********""
-preview_id = ""**********""
+id = "**********"
+preview_id = "**********"
 
 [[d1_databases]]
 binding = "DB"
